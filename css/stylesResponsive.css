@@ -1,0 +1,46 @@
+@media screen and (min-width: 551px) {
+
+      /* sets featured work examples width to 50% and scale text if the screen is bigger than or equal to 550px */
+
+      .item {
+       width: 50%;
+      }
+
+      h1 {
+            font-size: 3em;
+      }
+
+      h2 {
+            font-size: 2em;
+      }
+}
+
+@media screen and (min-width: 901px) {
+
+      /* sets featured work examples width to 33.33% and scale text if the screen is bigger than or equal to 900px */
+
+      .item {
+       width: 33.33%;
+      }
+
+      h1 {
+            font-size: 3.5em;
+      }
+
+      h2 {
+            font-size: 2.25em;
+      }
+}
+
+@media screen and (min-width: 1501px) {
+
+      /* scale the text if the screen is bigger than or equal to 1500px */
+
+      h1 {
+            font-size: 4em;
+      }
+      
+      h2 {
+            font-size: 3em;
+      }
+}

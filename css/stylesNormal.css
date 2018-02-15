@@ -1,0 +1,98 @@
+html, body, h1, h2 {
+      margin: 0;
+      padding: 0;
+}
+
+/* flexbox */
+
+.container {
+      display: flex;
+      flex-wrap: wrap;
+}
+
+.row {
+      width: 100%;
+}
+
+/* header */
+
+.header {
+      min-height: 56px;
+      width: 100%;
+}
+
+.header__logo__container {
+      width: 30%;
+}
+
+.header__text__container {
+      width: 70%;
+}
+
+.header__name__text {
+      font-family: Impact;
+      margin-top: 20px;
+      margin-right: 20px;
+}
+
+.header__title__text {
+      font-family: Georgia;
+      margin-right: 20px;
+}
+
+.logo {
+      width: 80%;
+      margin: 10%;
+      max-width: 100px;
+}
+
+/* horizontal line */
+
+.line_break {
+      width: 100%;
+      height: 0;
+      padding: 0;
+      border-top: 5px solid #2d3c49;
+      border-bottom: 5px solid #7d97ad;
+}
+
+/* big image */
+
+.image_big{
+      width: 100%;
+      padding: 10px 0;
+      border-radius: 100px;
+}
+
+/* featured work box */
+
+.featured_text {
+      font-family: Impact;
+      margin-left: 20px;
+      color: #7d97ad;
+}
+
+/* looks the same as a row but is changed in the responsive stlyle sheet  */
+.item {
+      width: 100%;
+}
+
+.item_image{
+      width: 80%;
+      padding: 10%;
+      padding-bottom: 0;
+}
+
+.item_text {
+      color: #2d3c49;
+      font-family: Georgia;
+}
+
+/* text alignments */
+.align_right {
+      text-align: right;
+}
+
+.align_center {
+      text-align: center;
+}
